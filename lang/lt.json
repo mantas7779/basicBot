@@ -5,7 +5,7 @@
     "datarestored": "Anksčiau nustatyti nustatymai atkurti sėkmingai.",
     "greyuser": "Tik bounceriai ar aukštesni pareigose gali mane įjungti.",
     "bouncer": "Botas negali keisti vartotojų pozicijų kai jis paleistas bouncerio.",
-    "online": "/me %%BOTNAME%% v%%VERSION%% Aktyvus!",
+    "online": "/me %%BOTNAME%% v%%VERSION%% aktyvus!",
 
 
     "welcome": "/me Labas %%NAME%%",
