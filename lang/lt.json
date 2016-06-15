@@ -8,7 +8,7 @@
     "online": "/me %%BOTNAME%% v%%VERSION%% aktyvus!",
 
 
-    "welcome": "/me Labas %%NAME%%",
+    "welcome": "/me Labas %u",
     "welcomeback": "/me Sveikas(a) sugrįžęs(usi), %%NAME%%",
     "songknown": "/me @%%NAME%%, daina jau yra grojusi.",
     "timelimit": "/me @%%NAME%%, Jūsų daina buvo ilgesnė nei %%MAXLENGTH%% minutės.",
