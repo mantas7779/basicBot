@@ -36,7 +36,7 @@
     "afkremove": "/me @%%NAME%%, Jūs buvote pašalintas, nes buvo neaktyvus %%TIME%%. Buvote eilėje %%POSITION%%. Rašykite žinutes mažiausiai %%MAXIMUMAFK%% minučių intervalu jei norite paleisti savo dainą.",
 
 
-    "caps": "/me [@%%NAME%%] išjunkite Caps Lock mygtuką!",
+    "caps": "/me @%%NAME%%, išjunkite Caps Lock mygtuką!",
     "askskip": "/me @%%NAME%%, Neprašinėk perjungti dainą.",
     "spam": "/me @%%NAME%%, Nespamink.",
     "roomadvertising": "/me @%%NAME%%, Neplatink kitų kambarių nuorodų!",
