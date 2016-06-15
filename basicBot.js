@@ -179,18 +179,6 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.2.2",
-        status: false,
-        name: "basicBot",
-        loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        chat: null,
-        loadChat: loadChat,
-        retrieveSettings: retrieveSettings,
-        retrieveFromStorage: retrieveFromStorage,
-        settings: {
             botName: "Lietuvos-Botas",
         language: "english",
         chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",
