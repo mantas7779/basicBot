@@ -16,7 +16,7 @@
     "isblacklisted": "/me Ši daina yra draudžiama %%BLACKLIST%% ! Perjungiama...",
 
 
-    "isopen": "/me Ruletė paleista! Rašykite !play kad dalyvautumėte!",
+    "isopen": "/me Ruletė paleista! Rašykite !join kad dalyvautumėte!",
     "winnerpicked": "/me :white_check_mark: Laimėtojas išrinktas! @%%NAME%% perkeltas į %%POSITION%% vietą.",
 
 
