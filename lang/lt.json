@@ -16,8 +16,8 @@
     "isblacklisted": "/me Ši daina yra draudžiama %%BLACKLIST%% ! Perjungiama...",
 
 
-    "isopen": "/me Ruletė paleista! Rašykite !join kad dalyvautumėte!",
-    "winnerpicked": "/me Laimėtojas išrinktas! @%%NAME%% perkeltas į %%POSITION%% vietą.",
+    "isopen": "/me Ruletė paleista! Rašykite !play kad dalyvautumėte!",
+    "winnerpicked": "/me :white_check_mark: Laimėtojas išrinktas! @%%NAME%% perkeltas į %%POSITION%% vietą.",
 
 
     "alreadyadding": "/me Vartotjas jau pridėtas! Changed the desired position to %%POSITION%%.",
@@ -40,7 +40,7 @@
     "askskip": "/me @%%NAME%%, Neprašinėk perjungti dainą.",
     "spam": "/me @%%NAME%%, Nespamink.",
     "roomadvertising": "/me @%%NAME%%, Neplatink kitų kambarių nuorodų!",
-    "adfly": "/me @%%NAME%%, Pakeiskite autowoot programą.Mes rekomenduojame naudoti PlugCubed: http://plugcubed.net/",
+    "adfly": "/me @%%NAME%%, Pakeiskite autowoot programą.Mes rekomenduojame naudoti RCS: https://rcs.radiant.dj/",
 
 
     "invalidtime": "/me [@%%NAME%%] Nurodytas netinkamas laikas.",
