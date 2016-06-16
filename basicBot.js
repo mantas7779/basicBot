@@ -179,44 +179,27 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.2.2",
-        status: false,
-        name: "basicBot",
-        loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        chat: null,
-        loadChat: loadChat,
-        retrieveSettings: retrieveSettings,
-        retrieveFromStorage: retrieveFromStorage,
-        settings: {
-            botName: "basicBot",
-            language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
-            maximumAfk: 120,
-            afkRemoval: true,
-            maximumDc: 60,
-            bouncerPlus: true,
-            blacklistEnabled: true,
-            lockdownEnabled: false,
-            lockGuard: false,
-            maximumLocktime: 10,
-            cycleGuard: true,
-            maximumCycletime: 10,
-            voteSkip: false,
-            voteSkipLimit: 10,
-            historySkip: true,
-            timeGuard: true,
-            maximumSongLength: 10,
-            autodisable: true,
-            commandCooldown: 30,
-            usercommandsEnabled: true,
-            lockskipPosition: 3,
-            lockskipReasons: [
+            botName: "Lietuvos-Botas",
+        language: "english",
+        chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",
+        maximumAfk: 10000000,
+        afkRemoval: false,
+        maximumDc: 120,
+        bouncerPlus: true,
+        lockdownEnabled: false,
+        lockGuard: false,
+        maximumLocktime: 10,
+        cycleGuard: false,
+        maximumCycletime: 10,
+        voteSkip: true,
+        voteSkipLimit: 15,
+        timeGuard: true,
+        maximumSongLength: 6.30,
+        autodisable: false,
+        commandCooldown: 30,
+        usercommandsEnabled: true,
+        lockskipPosition: 1,
+        lockskipReasons: [
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
                 ["history", "This song is in the history. "],
@@ -225,8 +208,8 @@
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
                 ["unavailable", "The song you played was not available for some users. "]
             ],
-            afkpositionCheck: 15,
-            afkRankCheck: "ambassador",
+            afkpositionCheck: null,
+            afkRankCheck: "user",
             motdEnabled: false,
             motdInterval: 5,
             motd: "Temporary Message of the Day",
@@ -234,9 +217,9 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: null,
+            rulesLink: http://prntscr.com/bb3yr8,
             themeLink: null,
-            fbLink: null,
+            fbLink: https://www.facebook.com/Už-Lietuvą-630256890371211,
             youtubeLink: null,
             website: null,
             intervalMessages: [],
@@ -1055,9 +1038,8 @@
                 else return false;
                 var userPerm = basicBot.userUtilities.getPermission(chat.uid);
                 //console.log("name: " + chat.un + ", perm: " + userPerm);
-                if (chat.message !== "!join" && chat.message !== "!leave") {
+                if (chat.message !== "!play") {
                     if (userPerm === 0 && !basicBot.room.usercommand) return void (0);
-                    if (!basicBot.room.allcommand) return void (0);
                 }
                 if (chat.message === '!eta' && basicBot.settings.etaRestriction) {
                     if (userPerm < 2) {
