@@ -28,7 +28,7 @@
     "notdisconnected": "/me @%%NAME%% nebuvote atsijungęs kol aš buvau paleistas.",
     "noposition": "/me Paskutinė vieta eilėje nežinoma. The waitlist needs to update at least once to register a user's last position.",
     "toolongago": "/me @%%NAME%%'s Paskutinis atsijungimas buvo per senai: %%TIME%%.",
-    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%% ir dabar turėtu būti šioje vietoje: %%POSITION%%.",
+    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%%in ir dabar turėtu būti %%POSITION%% vietoje.",
 
 
     "warning1": "/me @%%NAME%%, Jūs buvote neaktyvus %%TIME%%, Prašome atsiliepti per 2 minutes arba būsite pašalinti.",
@@ -78,7 +78,7 @@
     "voteskipexceededlimit": "/me @%%NAME%%, Jūsų daina peržengė nustatytą meh skaičių (%%LIMIT%% mehs).",
     "voteskipinvalidlimit": "/me [@%%NAME%%] Neteisingai nurodytas limitas.",
     "voteskipsetlimit": "/me [@%%NAME%%] Balsų limitas nustatytas į %%LIMIT%%.",
-    "activeusersintime": "/me [@%%NAME%% There have been %%AMOUNT%% users chatting in the past %%TIME%% minutes.",
+    "activeusersintime": "/me [@%%NAME%% Užfiksavau %%AMOUNT%% vartotojų kalbėjusiu per paskutinę(s) %%TIME%% minutes.",
     "maximumafktimeset": "/me [@%%NAME%%] Maximum afk duration set to %%TIME%% minutes.",
     "afkstatusreset": "/me [@%%NAME%%] Nustatyti aktyvumo laiką iš naujo @%%USERNAME%%.",
     "inactivefor": "/me [@%%NAME%%] @%%USERNAME%% buvo neaktyvus %%TIME%%.",
