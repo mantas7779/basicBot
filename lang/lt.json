@@ -28,7 +28,7 @@
     "notdisconnected": "/me @%%NAME%% nebuvote atsijungęs kol aš buvau paleistas.",
     "noposition": "/me Paskutinė vieta eilėje nežinoma. The waitlist needs to update at least once to register a user's last position.",
     "toolongago": "/me @%%NAME%%'s Paskutinis atsijungimas buvo per senai: %%TIME%%.",
-    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%%in ir dabar turėtu būti %%POSITION%% vietoje.",
+    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%%in ir dabar turėtų būti %%POSITION%% vietoje.",
 
 
     "warning1": "/me @%%NAME%%, Jūs buvote neaktyvus %%TIME%%, Prašome atsiliepti per 2 minutes arba būsite pašalinti.",
