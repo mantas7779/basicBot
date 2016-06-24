@@ -121,7 +121,7 @@
     "muterank": "/me [@%%NAME%%] Negalite užtildyti vartotojų turinčių tokias pat ar aukštesnes pareigas.",
     "oplist": "/me OP sąrašas: %%LINK%%",
     "pong": "/me Pong!",
-    "reload": "/me Tuoj būsių eteryje.",
+    "reload": "/me Tuoj būsiu eteryje.",
     "removenotinwl": "/me [@%%NAME%%] Nurodytas vartotojas @%%USERNAME%% nėra waitlist`e.",
     "roomrules": "/me Kambario taisyklės: %%LINK%%",
     "sessionstats": "/me [@%%NAME%%] Statistika woots: %%WOOTS%%, viso meh: %%MEHS%%, viso grabs: %%GRABS%%.",
