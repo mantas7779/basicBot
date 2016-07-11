@@ -20,15 +20,15 @@
     "winnerpicked": "/me :white_check_mark: Laimėtojas išrinktas! @%%NAME%% perkeltas į %%POSITION%% vietą.",
 
 
-    "alreadyadding": "/me Vartotjas jau pridėtas! Changed the desired position to %%POSITION%%.",
+    "alreadyadding": "/me Vartotjas jau pridėtas! Dabartinė vieta: %%POSITION%%.",
     "adding": "/me Pridėjo @%%NAME%% į eilę. Dabartinė vieta: %%POSITION%%.",
 
 
     "usernotfound": "/me Vartotojas nerastas.",
     "notdisconnected": "/me @%%NAME%% nebuvote atsijungęs kol aš buvau paleistas.",
-    "noposition": "/me Paskutinė vieta eilėje nežinoma. The waitlist needs to update at least once to register a user's last position.",
+    "noposition": "/me Paskutinė vieta eilėje nežinoma.",
     "toolongago": "/me @%%NAME%%'s Paskutinis atsijungimas buvo per senai: %%TIME%%.",
-    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%%in ir dabar turėtų būti %%POSITION%% vietoje.",
+    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%% ir dabar turėtų būti %%POSITION%% vietoje.",
 
 
     "warning1": "/me @%%NAME%%, Jūs buvote neaktyvus %%TIME%%, Prašome atsiliepti per 2 minutes arba būsite pašalinti.",
@@ -98,7 +98,7 @@
     "notinwaitlist": "/me @%%NAME%%, Jūs nesate eilėje.",
     "eta": "/me @%%NAME%% Jūs grosite po: %%TIME%%.",
     "facebook": "/me Prisijunkite prie mūsų Facebook`e: %%LINK%%",
-    "starterhelp": "/me Šis paveiksliukas padės jums susigaudyti pluge: %%LINK%%",
+    "starterhelp": "/me Komandos: "http://prntscr.com/brmw04",
     "roulettejoin": "/me @%%NAME%% Dalyvaujate ruletės žaidime! (rašykite !leave norėdami išeiti.)",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% vartotojas buvo kambaryje %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Jūs negalite išmesti vartotojų kurie turi aukštesnes pareigas negu Jūs!",
